@@ -1,6 +1,13 @@
+/*
+Write a program to rotate an array to the left
+i/p :
+int[] a= {3,2,4,6,5,6,8};
+o/p : 
+2 4 6 5 6 8 3 
+	*/
 public class MyClass 
 {
-	//StartOfMainMethod
+
 	public static void main(String[] args) 
 	{
 		int[] a= 
@@ -10,7 +17,7 @@ public class MyClass
 		;
 		myCode(a);
 	}
-	//EndOfMainMethod
+
 	private static void myCode(int[] a) 
 	{
 		int temp = a[0];
