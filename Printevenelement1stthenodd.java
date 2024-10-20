@@ -1,3 +1,19 @@
+/*
+Write a program to separate even and odd numbers of an given array of integers. Put all even numbers first, and 
+then oddnumbers.
+i/p : int[] a={5,3,12,3,7,5,34,6,78,9}; 
+o/p :
+12 
+34 
+6 
+78 
+5 
+3 
+3 
+7 
+5 
+9 
+*/
 public class MyClass 
 {
 	public static void main(String[] args) 
@@ -12,7 +28,6 @@ public class MyClass
 	}
 	private static void MyCode(int[] a, int[] b) 
 	{
-		//Write code here
 		int index = 0;
 		for(int i = 0;i<a.length;i++) 
 		{
